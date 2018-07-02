@@ -22,4 +22,4 @@ app.use('/graphql', graphqlHTTP({
     rootValue: root,
     graphiql: true,
 }));
-app.listen(40000, () => console.log('Now browse to localhost:4000/graphql'));
+app.listen(40000, () => console.log('Now browse to localhost:40000/graphql'));
